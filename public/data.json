@@ -35,81 +35,138 @@
     }
   },
   "personalInfo": {
-    "name": "Arif Hossain",
+    "name": "Vansh Sutariya",
     "title": "Full Stack Developer",
-    "location": "Dhaka, Bangladesh",
-    "bio": "I am a passionate full-stack developer with a strong background in building modern, scalable web applications. Lets collaborate andbring your ideas to life."
+    "location": "LA, California",
+    "bio": "I am a passionate full-stack developer with a strong background in building modern, scalable web applications. Lets collaborate and bring your ideas to life."
   },
   "contactInfo": {
-    "email": "devarifhossain@gmail.com",
-    "phone": "123-456-7890",
-    "linkedin": "https://www.linkedin.com/in/ariflogs/",
-    "github": "https://github.com/ariflogs",
-    "twitter": "https://twitter.com/ariflogs",
+    "email": "sutariyavansh@gmail.com",
+    "phone": "+91 9106011016",
+    "linkedin": "https://www.linkedin.com/in/vansh-sutariya/",
+    "github": "https://github.com/VanshSutariya",
+    "twitter": "https://x.com/vanshsutariya",
     "website": "https://johndoe.dev"
   },
   "skills": {
-    "languages": ["JavaScript", "Python", "Java", "C++"],
-    "frameworks": ["React", "Node.js", "Express", "Django", "Spring Boot"],
-    "databases": ["MySQL", "MongoDB", "PostgreSQL"],
-    "tools": ["Git", "Docker", "Kubernetes", "Jenkins", "AWS", "GCP"]
+    "languages": [
+      "JavaScript",
+      "Python",
+      "Java",
+      "C++"
+    ],
+    "frameworks": [
+      "React",
+      "Node.js",
+      "Express",
+      "Django",
+      "Spring Boot"
+    ],
+    "databases": [
+      "MySQL",
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    "tools": [
+      "Git",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "AWS",
+      "GCP"
+    ]
   },
   "projects": [
     {
       "id": "1",
-      "title": "Makers Tracker",
-      "description": "A project goal tracking tool for professionals. It let's you create project, assign goals and generate analytics to track progress",
-      "technologies": ["Typescript", "Next.js", "TailwindCSS", "MySQL"],
-      "live_url": "https://makerstracker.com",
-      "code_repo_url": "https://makerstracker.com",
+      "title": "Outdoor Advertisement",
+      "description": "Revolutionizing outdoor advertising with seamless poster management, insightful analytics, and user-friendly experiences for all roles.",
+      "technologies": [
+        "Typescript",
+        "Next.js",
+        "Nestjs",
+        "TailwindCSS",
+        "MongoDB"
+      ],
+      "live_url": "https://outdoor-advertise.vercel.app/outdoorAd",
+      "code_repo_url": "https://github.com/VanshSutariya/Outdoor-Advertise",
       "cover": "/assets/project_1.jpeg"
     },
     {
       "id": "2",
-      "title": "Pricing Bees",
-      "description": "A no-code pricing page builder. Build professional-looking pricing pages, customize looks, and get detailed analytics to optimize your pricing strategy.",
-      "technologies": ["Typescript", "Next.js", "Shadcn/ui", "Convex"],
-      "live_url": "https://pricingbees.com",
-      "code_repo_url": "https://pricingbees.com",
-      "cover": "/assets/project_2.jpeg"
+      "title": "HelloCrowd",
+      "description": "Developed Hellocrowd, a cutting-edge event management platform enabling real-time event creation, dynamic ticketing, attendance tracking, and customizable mobile apps, enhancing event efficiency and user experience.",
+      "technologies": [
+        "Angular",
+        "NodeJs",
+        "Fastify",
+        "Typescript",
+        "Firebase",
+        "GCP",
+        "SSR",
+        "SSO Login"
+      ],
+      "live_url": "https://www.hellocrowd.net/",
+      "cover": "/assets/hellocrowd.png"
     },
     {
       "id": "3",
-      "title": "Indie Hustles",
-      "description": "A listing site for Indie hackers to promote their products",
-      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
-      "live_url": "https://indiehustles.com",
-      "code_repo_url": "https://indiehustles.com",
-      "cover": "/assets/project_3.jpeg"
+      "title": "TourPath ",
+      "description": "TourPath is a backend service that helps users discover the best tour packages between cities or states, offering detailed itineraries and routes. It simplifies travel planning by recommending optimal tours based on user preferences.",
+      "technologies": [
+        "Typescript",
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ],
+      "code_repo_url": "https://github.com/VanshSutariya/TourPath",
+      "cover": "/assets/tourpath.png"
     }
   ],
   "workExperience": [
     {
       "id": "1",
-      "company": "Tech Corp",
-      "companyWebsite": "https://example.com",
-      "role": "Senior Full Stack Developer",
-      "startDate": "Jan 2020",
+      "company": "Lanet Team and Solutions",
+      "companyWebsite": "https://lanetteam.com/",
+      "role": "Full Stack Developer",
+      "startDate": "Jun 2024",
       "endDate": "Present",
-      "technologies": ["Socket.io", "Node.js", "Express", "React"],
       "keyResponsibilities": [
-        "Led a team of developers to create scalable web applications.",
-        "Implemented RESTful and GraphQL APIs using Node.js and Express.",
-        "Developed front-end applications using React and Next.js.",
+        "Developed and maintained full stack applications using MEAN stack (MongoDB, Express, Angular, Node.js), NestJS, Next.js, Angular, MySQL and Firebase.",
+        "Enhanced application performance and user experience, leading to a 30% improvement in application efficiency and a 25% increase in user satisfaction.",
         "Integrated third-party services and APIs to enhance application functionality.",
-        "Mentored junior developers and conducted code reviews."
+        "Collaborated with cross-functional teamsto deliver scalable and high-performing web solutions, ensuring timely deliveryand meeting all project milestones."
       ]
     },
     {
       "id": "2",
-      "company": "Web Solutions",
-      "companyWebsite": "https://example.com",
-      "role": "Full Stack Developer",
-      "startDate": "Jun 2017",
-      "endDate": "Dec 2019",
-      "technologies": ["MongoDB", "Express", "React", "Node.js"],
+      "company": "Lanet Team and Solutions",
+      "companyWebsite": "https://lanetteam.com/",
+      "role": "Full Stack Developer Intern",
+      "startDate": "Jan 2024",
+      "endDate": "Jun 2024",
       "keyResponsibilities": [
-        "Designed and developed web applications using JavaScript and React.",
+        "Assisted in the development and maintenance of full stack applications using MEAN stack (MongoDB, Express, Angular, Node.js), NestJS, and Firebase.",
+        "Performed debugging, testing, and optimization to improve application performance and user experience.",
+        "Supported integration of third-party services and APIs under guidance from senior developers.",
+        "Collaborated with cross-functional teams to ensure timely project deliverables and meet milestones."
+      ]
+    },
+    {
+      "id": "3",
+      "company": "CreArt Solutions",
+      "companyWebsite": "https://creart.in/",
+      "role": "Web Developer Intern",
+      "startDate": "July 2023",
+      "endDate": "Dec 2023",
+      "technologies": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node.js"
+      ],
+      "keyResponsibilities": [
+        "Designed and developed web applications using Django and Nodejs.",
         "Built and maintained server-side APIs with Node.js and Express.",
         "Collaborated with cross-functional teams to deliver high-quality products.",
         "Ensured applications are responsive and performant.",
@@ -120,37 +177,39 @@
   "education": [
     {
       "id": "1",
-      "institution": "Coursera",
-      "degree": "Full Stack Web Development with React",
-      "description": "Completed a Coursera specialization that focused on building full-stack web applications using React, Node.js, Express, and MongoDB. Learned best practices for designing and implementing responsive, scalable, and secure web applications.",
-      "startDate": "Sep 2013",
-      "endDate": "May 2017"
+      "institution": "California State University, Long Beach, USA",
+      "degree": "Masters in Computer Science",
+      "description": "Embarking on a journey to deepen expertise in computer science, with initial coursework focusing on advanced algorithms, artificial intelligence, and software engineering principles. Excited to explore innovative projects and cutting-edge research opportunities in AI and web technologies.",
+      "startDate": "Jan 2025",
+      "endDate": "Present"
     },
     {
       "id": "2",
-      "institution": "University of California, Berkeley",
-      "degree": "Bachelor of Science in Computer Science",
-      "description": "Completed a comprehensive curriculum in computer science, including courses in data structures, algorithms, software engineering, and artificial intelligence. Worked on several projects, including a web application for managing student organizations and a mobile app for tracking fitness activities.",
-      "startDate": "Sep 2013",
-      "endDate": "May 2017"
+      "institution": "LJIET , Ahmedabad Gujarat, INDIA  ",
+      "degree": "B.E. in Computer Engineering",
+      "description": "Graduated with a strong foundation in computer engineering, excelling in designing and deploying full-stack web applications. Developed hands-on expertise with Nextjs, Node.js, and SQL while delivering scalable and secure solutions. Accomplished significant projects, earning recognition for technical creativity and innovation.",
+      "startDate": "Aug 2024",
+      "endDate": "May 2024"
     }
   ],
   "testimonials": [
     {
       "id": "1",
-      "name": "Jane Smith",
-      "avatar": "/assets/testimonial_1_avatar.jpg",
-      "title": "Project Manager",
-      "company": "Tech Solutions Inc.",
-      "feedback": "John is a fantastic developer who consistently delivers high-quality work. His ability to solve complex problems is impressive."
+      "name": "Ajeet Singh",
+      "avatar": "/assets/ajeet.png",
+      "title": "CEO",
+      "company": "Lanet Team and Solutions",
+      "link": "https://lanetteam.com/",
+      "feedback": "Vansh is a fantastic developer who consistently delivers high-quality work. His ability to solve complex problems is impressive."
     },
     {
       "id": "2",
-      "name": "Mike Johnson",
-      "avatar": "/assets/testimonial_2_avatar.jpg",
+      "name": "Krishnamohan Gupta",
+      "avatar": "/assets/creArt.jpeg",
       "title": "CEO",
-      "company": "Web Innovators LLC",
-      "feedback": "John is a highly skilled developer who brings a lot of value to our projects. His expertise in full stack development is top-notch."
+      "company": "CreArt Solutions",
+      "link": "https://creart.in/",
+      "feedback": "Vansh is a highly skilled developer who brings a lot of value to our projects. His expertise in full stack development is top-notch."
     }
   ]
 }

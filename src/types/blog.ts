@@ -4,4 +4,5 @@ export interface BlogMetadata {
   isPublished: boolean;
   slug: string;
   publishDate: string;
+  link: string
 }

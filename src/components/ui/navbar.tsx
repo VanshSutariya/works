@@ -18,6 +18,9 @@ export default async function Navbar() {
             height={60}
             width={60}
             alt={"devfolio logo"}
+            style={{
+              borderRadius: "50%",
+            }}
           />
         </Link>
         <nav className="hidden space-x-4 lg:flex">
