@@ -79,21 +79,6 @@
   "projects": [
     {
       "id": "1",
-      "title": "Outdoor Advertisement",
-      "description": "Revolutionizing outdoor advertising with seamless poster management, insightful analytics, and user-friendly experiences for all roles.",
-      "technologies": [
-        "Typescript",
-        "Next.js",
-        "Nestjs",
-        "TailwindCSS",
-        "MongoDB"
-      ],
-      "live_url": "https://outdoor-advertise.vercel.app/outdoorAd",
-      "code_repo_url": "https://github.com/VanshSutariya/Outdoor-Advertise",
-      "cover": "/assets/project_1.jpeg"
-    },
-    {
-      "id": "2",
       "title": "HelloCrowd",
       "description": "Developed Hellocrowd, a cutting-edge event management platform enabling real-time event creation, dynamic ticketing, attendance tracking, and customizable mobile apps, enhancing event efficiency and user experience.",
       "technologies": [
@@ -108,6 +93,21 @@
       ],
       "live_url": "https://www.hellocrowd.net/",
       "cover": "/assets/hellocrowd.png"
+    },
+    {
+      "id": "2",
+      "title": "Outdoor Advertisement",
+      "description": "Revolutionizing outdoor advertising with seamless poster management, insightful analytics, and user-friendly experiences for all roles.",
+      "technologies": [
+        "Typescript",
+        "Next.js",
+        "Nestjs",
+        "TailwindCSS",
+        "MongoDB"
+      ],
+      "live_url": "https://outdoor-advertise.vercel.app/outdoorAd",
+      "code_repo_url": "https://github.com/VanshSutariya/Outdoor-Advertise",
+      "cover": "/assets/project_1.jpeg"
     },
     {
       "id": "3",
@@ -128,6 +128,20 @@
       "id": "1",
       "company": "Lanet Team and Solutions",
       "companyWebsite": "https://lanetteam.com/",
+      "role": "Software Developer",
+      "startDate": "Jun 2024",
+      "endDate": "Present",
+      "keyResponsibilities": [
+        "Developed and maintained full stack applications using MEAN stack (MongoDB, Express, Angular, Node.js), NestJS, Next.js, Angular, MySQL and Firebase.",
+        "Enhanced application performance and user experience, leading to a 30% improvement in application efficiency and a 25% increase in user satisfaction.",
+        "Integrated third-party services and APIs to enhance application functionality.",
+        "Collaborated with cross-functional teamsto deliver scalable and high-performing web solutions, ensuring timely deliveryand meeting all project milestones."
+      ]
+    },
+    {
+      "id": "2",
+      "company": "Lanet Team and Solutions",
+      "companyWebsite": "https://lanetteam.com/",
       "role": "Full Stack Developer Intern",
       "startDate": "Jan 2024",
       "endDate": "Jun 2024",
@@ -136,20 +150,6 @@
         "Performed debugging, testing, and optimization to improve application performance and user experience.",
         "Supported integration of third-party services and APIs under guidance from senior developers.",
         "Collaborated with cross-functional teams to ensure timely project deliverables and meet milestones."
-      ]
-    },
-    {
-      "id": "2",
-      "company": "Lanet Team and Solutions",
-      "companyWebsite": "https://lanetteam.com/",
-      "role": "Full Stack Developer",
-      "startDate": "Jun 2024",
-      "endDate": "Present",
-      "keyResponsibilities": [
-        "Developed and maintained full stack applications using MEAN stack (MongoDB, Express, Angular, Node.js), NestJS, Next.js, Angular, MySQL and Firebase.",
-        "Enhanced application performance and user experience, leading to a 30% improvement in application efficiency and a 25% increase in user satisfaction.",
-        "Integrated third-party services and APIs to enhance application functionality.",
-        "Collaborated with cross-functional teamsto deliver scalable and high-performing web solutions, ensuring timely deliveryand meeting all project milestones."
       ]
     },
     {
