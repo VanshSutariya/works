@@ -96,6 +96,21 @@
     },
     {
       "id": "2",
+      "title": "DrZio",
+      "description": "Designed a health and fitness platform using WordPress, providing seamless navigation, engaging UI, personalized fitness tracking, and integrated payment options, ensuring accessibility and exceeding user expectations.",
+      "technologies": [
+        "WordPress",
+        "PHP",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "live_url": "https://www.drzio.com/",
+      "cover": "/assets/drzio.png"
+    },
+    {
+      "id": "3",
       "title": "Outdoor Advertisement",
       "description": "Revolutionizing outdoor advertising with seamless poster management, insightful analytics, and user-friendly experiences for all roles.",
       "technologies": [
@@ -110,7 +125,7 @@
       "cover": "/assets/project_1.jpeg"
     },
     {
-      "id": "3",
+      "id": "4",
       "title": "TourPath ",
       "description": "TourPath is a backend service that helps users discover the best tour packages between cities or states, offering detailed itineraries and routes. It simplifies travel planning by recommending optimal tours based on user preferences.",
       "technologies": [
@@ -132,9 +147,11 @@
       "startDate": "Jun 2024",
       "endDate": "Present",
       "keyResponsibilities": [
-        "Developed and maintained full stack applications using MEAN stack (MongoDB, Express, Angular, Node.js), NestJS, Next.js, Angular, MySQL and Firebase.",
+        "Designed and developed user-centric web pages using PHP, JavaScript, and CSS, adhering to accessibility standards.",
+        "Customized WordPress CMS extensions and developed MySQL-based solutions to meet user requirements for various clients.",
         "Enhanced application performance and user experience, leading to a 30% improvement in application efficiency and a 25% increase in user satisfaction.",
         "Integrated third-party services and APIs to enhance application functionality.",
+        "Maintained backend hosting environments on Google Cloud and Firebase.",
         "Collaborated with cross-functional teamsto deliver scalable and high-performing web solutions, ensuring timely deliveryand meeting all project milestones."
       ]
     },
