@@ -35,7 +35,7 @@ export default async function Home() {
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
           <div className="w-1/2 mx-auto lg:w-1/3">
             <Image
-              src="/assets/profile.jpg"
+              src="/assets/logo.png"
               width={280}
               height={280}
               alt="Developer"
@@ -51,7 +51,7 @@ export default async function Home() {
             <p className="max-w-[600px] lg:text-lg text-gray-500 dark:text-gray-400">
               {data.personalInfo.bio}
             </p>
-            <div className="space-x-4">
+            {/* <div className="space-x-4">
               <Link
                 target="_blank"
                 href={data.contactInfo.github}
@@ -86,13 +86,13 @@ export default async function Home() {
                   <EnvelopeClosedIcon className="h-4 w-4" />
                 </Button>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
 
       {/* Experience Section */}
-      <section
+      {/* <section
         id="experience"
         className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
       >
@@ -128,7 +128,7 @@ export default async function Home() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Projects Section */}
       <section
@@ -194,7 +194,7 @@ export default async function Home() {
       </section>
 
       {/* Education Section */}
-      <section
+      {/* <section
         id="education"
         className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
       >
@@ -213,10 +213,10 @@ export default async function Home() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Testimonials Section */}
-      <section
+      {/* <section
         id="testimonials"
         className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
       >
@@ -249,7 +249,7 @@ export default async function Home() {
             </Card>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Blogs Section */}
       <section

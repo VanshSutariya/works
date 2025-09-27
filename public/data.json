@@ -3,20 +3,8 @@
     "navbar": {
       "links": [
         {
-          "label": "Experience",
-          "path": "#experience"
-        },
-        {
           "label": "Projects",
           "path": "#projects"
-        },
-        {
-          "label": "Education",
-          "path": "#education"
-        },
-        {
-          "label": "Testimonials",
-          "path": "#testimonials"
         },
         {
           "label": "Blogs",
@@ -35,19 +23,11 @@
     }
   },
   "personalInfo": {
-    "name": "Vansh Sutariya",
-    "title": "Full Stack Developer",
-    "location": "LA, California",
-    "bio": "I am a passionate full-stack developer with a strong background in building modern, scalable web applications. Lets collaborate and bring your ideas to life."
+    "name": "Excited to connect !",
+    "title": "End-to-End Product Engineering Partner",
+    "bio": "We’re a team of full-stack engineers, cloud architects, and product designers delivering end-to-end product development—from discovery and UX/UI to full-stack build, cloud/DevOps, and post-launch support. We craft reliable, design-led platforms (SaaS, internal tools, data apps) with clean architecture, testing, CI/CD, and observability, working as embedded partners to ship fast and iterate on real feedback."
   },
-  "contactInfo": {
-    "email": "sutariyavansh@gmail.com",
-    "phone": "+91 9106011016",
-    "linkedin": "https://www.linkedin.com/in/vansh-sutariya/",
-    "github": "https://github.com/VanshSutariya",
-    "twitter": "https://x.com/vanshsutariya",
-    "website": "https://johndoe.dev"
-  },
+  "contactInfo": {},
   "skills": {
     "languages": [
       "JavaScript",
@@ -77,6 +57,77 @@
     ]
   },
   "projects": [
+    {
+      "id": "6",
+      "title": "I-NSTEIN",
+      "description": "Built I-nstein, a geospatial OSINT platform that ingests ACLED and fuses social-media PAI (X/Twitter, Telegram, VK) to track incidents in real time, render a 3D common intelligence picture with tactical graphics, and provide entity/case management with A-1 to F-6 reliability scoring.",
+      "technologies": [
+        "Angular",
+        ".NET Core",
+        "Azure",
+        "CesiumJS",
+        "Google Maps",
+        "ACLED",
+        "Twitter API",
+        "YouTube API",
+        "Telegram API",
+        "Facebook API"
+      ],
+      "live_url": "https://www.i-nstein.app/",
+      "cover": "/assets/i-nstein.png"
+    },
+    {
+      "id": "7",
+      "title": "Visitor Tracking",
+      "description": "Built a real-time web analytics platform that streams live sessions, tracks conversions and funnels, and aggregates insights across unlimited sites. Includes event tracking (clicks, form submits, click-to-call), customer journeys with original-source attribution, and conversion analytics with a 14-day moving average and UTM breakdowns—privacy-friendly (GDPR/CCPA) with optional IP/org identification. 30-second setup with a 7-day free trial.",
+      "technologies": [
+        "Angular",
+        ".NET",
+        "TypeScript",
+        "Azure App Service"
+      ],
+      "live_url": "https://visitortracking.com/",
+      "cover": "/assets/visitortracking.png"
+    },
+    {
+      "id": "8",
+      "title": "MetricsNavigator",
+      "description": "Built MetricsNavigator, a Shopify analytics platform that connects to your store and surfaces revenue, retention, and LTV insights. It provides cohort analysis, repeat-purchase and AOV tracking, customizable dashboards, segmentation, and real-time trend monitoring—including payback period tracking—to drive data-driven growth.",
+      "technologies": [
+        "React",
+        "Vite",
+        "ApexCharts",
+        "Redux",
+        "Python",
+        "Django",
+        "Django REST Framework",
+        "Custom ETL Pipeline",
+        "PostgreSQL",
+        "Google Cloud App Engine",
+        "Google Cloud Compute Engine (VM)"
+      ],
+      "live_url": "https://www.metricsnavigator.ai/",
+      "cover": "/assets/metricsnavigator.png"
+    },
+    {
+      "id": "9",
+      "title": "Slyce",
+      "description": "Built Slyce, an AI-driven restaurant growth platform for delivery apps (e.g., Lieferando, Uber Eats, Wolt). From a single dashboard you can launch promotions/ads across platforms, automate campaign settings with real-time algorithms, and track results end-to-end. The Data module syncs to your warehouse/BI for deep analysis and adds market/competitor monitoring with alerts for changes to campaigns, menus, and revenue. The Operations module provides 24/7 live monitoring with instant store-manager notifications, an aggregated Operations Score with actionable recommendations, automated review analysis/classification, and location/menu management with 1-click re-enable.",
+      "technologies": [
+        "React",
+        "Node.js",
+        "Scheduler",
+        "Workflow Orchestrator",
+        "Message Queue",
+        "Google Cloud Pub/Sub",
+        "BigQuery",
+        "PostgreSQL",
+        "Puppeteer",
+        "Cloudflare Proxy"
+      ],
+      "live_url": "https://slyce.io/",
+      "cover": "/assets/slyce.png"
+    },
     {
       "id": "1",
       "title": "HelloCrowd",
@@ -121,21 +172,7 @@
         "MongoDB"
       ],
       "live_url": "https://outdoor-advertise.vercel.app/outdoorAd",
-      "code_repo_url": "https://github.com/VanshSutariya/Outdoor-Advertise",
       "cover": "/assets/project_1.jpeg"
-    },
-    {
-      "id": "4",
-      "title": "TourPath ",
-      "description": "TourPath is a backend service that helps users discover the best tour packages between cities or states, offering detailed itineraries and routes. It simplifies travel planning by recommending optimal tours based on user preferences.",
-      "technologies": [
-        "Typescript",
-        "Node.js",
-        "MongoDB",
-        "Express"
-      ],
-      "code_repo_url": "https://github.com/VanshSutariya/TourPath",
-      "cover": "/assets/tourpath.png"
     }
   ],
   "workExperience": [
