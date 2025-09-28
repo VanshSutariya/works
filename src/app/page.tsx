@@ -133,55 +133,73 @@ export default async function Home() {
       {/* Projects Section */}
       <section
         id="projects"
-        className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
+        className="container max-w-6xl mx-auto py-12 md:py-16 lg:py-20"
       >
         <h2 className="font-bold text-3xl md:text-5xl mb-12">My Projects</h2>
-        <div className="grid grid-cols-1 gap-4 lg:gap-6">
+        <div className="grid grid-cols-1 gap-6 lg:gap-8">
           {data.projects.map((project) => (
-            <Card key={project.title} className="flex flex-col lg:flex-row">
-              <div className="w-full lg:w-1/3 p-2 flex items-center">
+            <Card
+              key={project.title}
+              className="group flex flex-col overflow-hidden border border-white/10 bg-slate-900/70 shadow-[0_50px_90px_-45px_rgba(15,23,42,0.85)] backdrop-blur lg:flex-row"
+            >
+              <div className="relative w-full overflow-hidden lg:w-1/2">
+                <div className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-tr from-slate-950/80 via-transparent to-slate-900/30 opacity-70 transition duration-500 group-hover:opacity-40" />
                 <Image
                   src={project.cover}
-                  alt="Project 1"
-                  height={200}
-                  width={300}
-                  className="rounded-md object-cover"
+                  alt={`${project.title} cover`}
+                  height={360}
+                  width={640}
+                  className="h-full w-full scale-100 rounded-none object-cover transition duration-700 ease-out group-hover:scale-105"
                 />
+                <div className="pointer-events-none absolute inset-4 z-20 rounded-2xl border border-white/10 opacity-0 transition duration-500 group-hover:opacity-100" />
+                <div className="pointer-events-none absolute -bottom-10 left-1/2 z-0 h-52 w-52 -translate-x-1/2 transform rounded-full bg-fuchsia-500/40 blur-3xl opacity-0 transition duration-700 group-hover:opacity-80" />
               </div>
 
-              <div className="w-full lg:w-2/3">
-                <CardHeader>
-                  <CardTitle>{project.title}</CardTitle>
+              <div className="flex w-full flex-col justify-between p-6 lg:w-1/2">
+                <CardHeader className="space-y-4 p-0">
+                  <CardTitle className="text-2xl font-semibold text-white lg:text-[2rem]">
+                    {project.title}
+                  </CardTitle>
                   <div className="flex flex-wrap gap-2">
                     {project.technologies.map((tech) => (
-                      <Badge key={tech} variant="secondary">
+                      <Badge
+                        key={tech}
+                        variant="secondary"
+                        className="border border-white/10 bg-white/10 text-xs font-semibold uppercase tracking-wide text-white/90"
+                      >
                         {tech}
                       </Badge>
                     ))}
                   </div>
                 </CardHeader>
-                <CardContent>
-                  <CardDescription>{project.description}</CardDescription>
+                <CardContent className="px-0">
+                  <CardDescription className="leading-relaxed text-slate-300">
+                    {project.description}
+                  </CardDescription>
                 </CardContent>
-                <CardFooter>
-                  <div className="flex space-x-3">
+                <CardFooter className="px-0">
+                  <div className="flex flex-wrap gap-3">
                     {project?.live_url && (
                       <Link
                         target="_blank"
                         href={project.live_url}
                         prefetch={false}
                       >
-                        <Button size="sm">
-                          <GlobeIcon className="h-3 w-3 mr-2" />
+                        <Button className="gap-2" size="sm">
+                          <GlobeIcon className="h-4 w-4" />
                           Live Demo
                         </Button>
                       </Link>
                     )}
                     {project?.code_repo_url && (
-                      <Link target="_blank" href={project?.code_repo_url} prefetch={false}>
-                        <Button size="sm" variant="outline">
-                          <GitHubLogoIcon className="h-3 w-3 mr-2" />
-                          Open Repository
+                      <Link
+                        target="_blank"
+                        href={project.code_repo_url}
+                        prefetch={false}
+                      >
+                        <Button className="gap-2" size="sm" variant="outline">
+                          <GitHubLogoIcon className="h-4 w-4" />
+                          Repository
                         </Button>
                       </Link>
                     )}
