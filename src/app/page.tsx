@@ -33,11 +33,11 @@ export default async function Home() {
         className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
       >
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
-          <div className="w-1/2 mx-auto lg:w-1/3">
+          <div >
             <Image
               src="/assets/logo.png"
-              width={280}
-              height={280}
+              width={400}
+              height={400}
               alt="Developer"
               className="mx-auto aspect-square overflow-hidden object-cover object-center rounded-full"
             />
@@ -45,7 +45,7 @@ export default async function Home() {
           <div className="w-full lg:w-2/3 space-y-4">
             <div className="space-y-2">
               <h1 className="text-4xl md:text-5xl font-bold tracking-tighter ">
-                Hey 👋, I&apos;m {data.personalInfo.name}
+                Global Web Solutions 🌍
               </h1>
             </div>
             <p className="max-w-[600px] lg:text-lg text-gray-500 dark:text-gray-400">
@@ -135,7 +135,7 @@ export default async function Home() {
         id="projects"
         className="container max-w-6xl mx-auto py-12 md:py-16 lg:py-20"
       >
-        <h2 className="font-bold text-3xl md:text-5xl mb-12">My Projects</h2>
+        <h2 className="font-bold text-3xl md:text-5xl mb-12"> Projects</h2>
         <div className="grid grid-cols-1 gap-6 lg:gap-8">
           {data.projects.map((project) => (
             <Card
